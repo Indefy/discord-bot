@@ -1,6 +1,6 @@
 # Anime Advice Bot
 
-![Anime Advice Bot](banner.png)
+![Anime Advice Bot]
 
 ## Introduction
 
@@ -43,19 +43,22 @@ Welcome to Anime Advice Bot! This Discord bot provides anime recommendations, th
  **Deployment**
 The bot can be deployed using various cloud platforms. Here's how to deploy it on Render:
 
-Create a Render account.
-Connect your GitHub repository to Render.
-Create a new Web Service and select your repository.
-Set environment variables:
-BOT_TOKEN: Your Discord bot token.
-API_BASE_URL: The URL of your deployed API.
-Deploy the service.
-Commands
-User Commands
-!recommend <genre>: Get an anime recommendation for the specified genre.
-!news: Get the latest upcoming anime news.
-!genres: List all available genres.
-!help: Display the help message with a list of commands.
+- Create a Render account.
+- Connect your GitHub repository to Render.
+- Create a new Web Service and select your repository.
+- Set environment variables:
+   ```bash
+   BOT_TOKEN: Your Discord bot token.
+- API_BASE_URL: The URL of your deployed API.
+- Deploy the service.
+   Commands:
+   User Commands
+   ```bash
+   !recommend <genre>: Get an anime recommendation for the specified genre.
+   !news: Get the latest upcoming anime news.
+   !genres: List all available genres.
+   !help: Display the help message with a list of commands.
+
 Developer Instructions
 To contribute to the development of Anime Advice Bot, follow these instructions:
 1. **Fork the repository.**:
