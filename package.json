@@ -1,0 +1,20 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "//===========================================================================================================================================//\r //\r // Guild Install URL, Use this URL to add your bot to a server:\r //\r // https://discord.com/oauth2/authorize?client_id=1233676446401167390&permissions=379968&integration_type=0&scope=applications.commands+bot\r //\r //===========================================================================================================================================//\r //\r // User Install URL, This URL can be used if you want to allow individual users to authorize your bot. It’s typically used in scenarios where the\r // bot performs user-specific actions.\r //\r // https://discord.com/oauth2/authorize?client_id=1233676446401167390&permissions=379968&integration_type=1&scope=applications.commands+bot\r //\r //===========================================================================================================================================//\r # discord-bot # discord-bot",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"axios": "^1.7.2",
+		"cors": "^2.8.5",
+		"discord.js": "^14.15.3",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
