@@ -97,5 +97,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - Jikan API for the anime data.
 - Render for hosting services.
 
-**Feel free to modify and expand the README file to include more specific details about your project.**
 **Project created by Adi B**
